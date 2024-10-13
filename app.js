@@ -39,8 +39,8 @@ app.get('/', (c) => {
                             <p>测试地址：<a href="${get_url(c) + 'test'}">${get_url(c) + 'test'}</a></p>
                             <p>api地址：<a href="${get_url(c) + 'api'}">${get_url(c) + 'api'}</a></p>
                             <p>例如：<a href="${get_url(c) + 'api?server=netease&type=url&id=416892104'}">${get_url(c) + 'api?server=netease&type=url&id=416892104'}</a></p>
-                            <p>api地址：<a href="${get_url(c) + 'api'}">${get_url(c) + 'api'}</a></p>
-                            <p>api地址：<a href="${get_url(c) + 'api'}">${get_url(c) + 'api'}</a></p>
+                            <p><a href="${get_url(c) + 'api?server=netease&type=song&id=591321'}">${get_url(c) + 'api?server=netease&type=song&id=591321'}</a></p>
+                            <p><a href="${get_url(c) + 'api?server=netease&type=playlist&id=12715443514'}">${get_url(c) + 'api?server=netease&type=playlist&id=12715443514'}</a></p>
 
                         </body>
                     </html>`
